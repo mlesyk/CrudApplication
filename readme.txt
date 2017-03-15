@@ -1,4 +1,4 @@
-Устанавливать в Tomcat7 ROOT (<a href="http://stackoverflow.com/questions/7276989/howto-set-the-context-path-of-a-web-application-in-tomcat-7-0">Взято с stackoverflow</a>):
+Устанавливать в Tomcat7 ROOT (ссылка на источник внизу):
 1. Открыть {TOMCAT_HOME_DIR}/conf/server.xml
 2. Найти там тэг (или добавить):
       <Host name="localhost"  appBase="webapps"
@@ -31,3 +31,7 @@ Login: root
 Password: root
 
 SQL данные лежат в папке database_scripts
+
+
+Статья про настройку запуска приложения как ROOT:
+http://stackoverflow.com/questions/7276989/howto-set-the-context-path-of-a-web-application-in-tomcat-7-0
