@@ -1,4 +1,4 @@
-Устанавливать в Tomcat ROOT:
+Устанавливать в Tomcat7 ROOT (<a href="http://stackoverflow.com/questions/7276989/howto-set-the-context-path-of-a-web-application-in-tomcat-7-0">Взято с stackoverflow</a>):
 1. Открыть {TOMCAT_HOME_DIR}/conf/server.xml
 2. Найти там тэг (или добавить):
       <Host name="localhost"  appBase="webapps"
@@ -20,6 +20,7 @@
                prefix="localhost_access_log." suffix=".txt"
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
       </Host>
+5. Бросаем собраный war-ник в папку webapps
 
 e-mail: maksym@lesyk.org
 skype: maks.lesyk
